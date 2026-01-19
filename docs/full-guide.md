@@ -14,6 +14,7 @@
 - [通知渠道详细配置](#通知渠道详细配置)
 - [数据源配置](#数据源配置)
 - [高级功能](#高级功能)
+- [缠论买卖点信号工程规范（Spec v0.1）](#缠论买卖点信号工程规范spec-v01)
 - [本地 WebUI 管理界面](#本地-webui-管理界面)
 
 ---
@@ -409,6 +410,12 @@ python main.py --debug
 日志文件位置：
 - 常规日志：`logs/stock_analysis_YYYYMMDD.log`
 - 调试日志：`logs/stock_analysis_debug_YYYYMMDD.log`
+
+### 缠论买卖点信号工程规范（Spec v0.1）
+
+为了将“一买/二买/三买、卖点确认、中枢/背驰/区间套”等缠论结构以**工程化、可复现**的方式融入本项目，我们整理了一份规范文档（包含：分型/笔/中枢定义、背驰口径、信号确认规则、输出结构与默认参数）。
+
+- 规范文档：[`docs/chanlun-signal-spec.md`](chanlun-signal-spec.md)
 
 ---
 
